@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "kbd")(type "KiCad")(uri "/home/keishis/Gits/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
-  (lib (name "Keebio-Parts")(type "KiCad")(uri "/home/keishis/Gits/Keebio-Parts.pretty")(options "")(descr ""))
-)
