@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "kbd")(type "KiCad")(uri "/home/keishis/Gits/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
   (lib (name "Keebio-Parts")(type "KiCad")(uri "/home/keishis/Gits/Keebio-Parts.pretty")(options "")(descr ""))
-  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint")(options "")(descr ""))
+  (lib (name "otborad")(type "KiCad")(uri "${KIPRJMOD}/otborad.pretty")(options "")(descr ""))
 )

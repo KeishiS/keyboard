@@ -16,13 +16,13 @@
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 4.0)
+      (against_preferred_direction_trace_costs 4.1)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.2)
+      (against_preferred_direction_trace_costs 3.1)
     )
   )
   (rule
@@ -64,12 +64,12 @@
     )
   )
   (class "kicad_default"
-    col7 "Net-(D11-A)" "Net-(D1-A)" col2 col3 "Net-(D2-A)" col4 "Net-(D3-A)"
-    "Net-(D4-A)" col5 col6 "Net-(D5-A)" "Net-(D6-A)" "Net-(D7-A)" "Net-(D8-A)" "Net-(D9-A)"
-    "Net-(D10-A)" "Net-(D12-A)" "Net-(D13-A)" "Net-(D14-A)" "Net-(D15-A)" "Net-(D16-A)" "Net-(D17-A)" col1
-    "Net-(D18-A)" "Net-(D19-A)" reset GND data pwr row3 "unconnected-(U1-RAW-Pad24)"
-    "unconnected-(U1-4{slash}D4-Pad7)" "unconnected-(U1-2{slash}D1{slash}SDA-Pad5)" row4 "unconnected-(U1-F4{slash}A3-Pad20)" row1 "unconnected-(U1-5{slash}C6-Pad8)" "unconnected-(U1-TX0{slash}D3-Pad1)" row2
-    "unconnected-(J1-PadA)"
+    GND pwr switch col2 "Net-(D1-A)" col3 "Net-(D2-A)" "Net-(D3-A)"
+    col4 col5 "Net-(D4-A)" "Net-(D5-A)" col6 "Net-(D6-A)" "Net-(D7-A)" "Net-(D8-A)"
+    "Net-(D9-A)" "Net-(D10-A)" "Net-(D11-A)" col7 "Net-(D12-A)" "Net-(D13-A)" "Net-(D14-A)" "Net-(D15-A)"
+    "Net-(D16-A)" col1 "Net-(D17-A)" "Net-(D18-A)" "Net-(D19-A)" VRy "unconnected-(U3-Padd)" VRx
+    "unconnected-(U3-Padc)" "unconnected-(U3-Pada)" "unconnected-(U3-Padb)" row4 "unconnected-(U1-5{slash}C6-Pad8)" reset "unconnected-(U1-RAW-Pad24)" data
+    row3 "unconnected-(U1-TX0{slash}D3-Pad1)" row1 row2 "unconnected-(U1-2{slash}D1{slash}SDA-Pad5)" "unconnected-(J1-PadA)" "unconnected-(J1-PadA)_1"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule

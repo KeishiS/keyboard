@@ -1,0 +1,5 @@
+out/
+*-bak
+*.bak
+*-backups
+*.hex
