@@ -1,4 +1,4 @@
-428541573461881
+432046804002127
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102963,11 +102963,25 @@ RKJXV122400R
 10
 8
 otborad
+RKJXV122400R_1
+
+
+0
+10
+8
+otborad
 choc1_0.8u_reversible
 
 
 0
 4
+2
+otborad
+choc1_0.8u_reversible_uponly
+
+
+0
+2
 2
 otborad
 keyswitch_choc12_hotswap_1u
