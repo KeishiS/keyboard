@@ -19,8 +19,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LOWER] = LAYOUT(                                         //
                                                                // left
         JP_PIPE, JP_UNDS, JP_HASH, JP_DQUO, JP_EXLM, KC_NO,    //
-        JP_GRV, JP_CIRC, JP_AMPR, JP_PERC, JP_DLR, KC_TAB,     //
-        KC_NO, KC_NO, JP_TILD, JP_ASTR, JP_QUOT, KC_NO,        //
+        JP_GRV, JP_CIRC, JP_AMPR, JP_PERC, JP_DLR, KC_LCTL,    //
+        JP_AT, KC_NO, JP_TILD, JP_ASTR, JP_QUOT, KC_LSFT,      //
         MO(_LOWER), KC_ENT, KC_ESC, JP_MHEN, KC_NO, KC_NO,     //
                                                                // right
         JP_LCBR, JP_RCBR, JP_AT, KC_NO, KC_UP, KC_NO,          //
@@ -30,9 +30,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
     [_UPPER] = LAYOUT(                                     //
                                                            // left
-        KC_NO, KC_NO, KC_3, KC_2, KC_1, KC_NO,             //
+        KC_TAB, KC_NO, KC_3, KC_2, KC_1, KC_NO,            //
         KC_NO, KC_NO, KC_6, KC_5, KC_4, KC_LCTL,           //
-        KC_NO, KC_0, KC_9, KC_8, KC_7, KC_NO,              //
+        JP_GRV, KC_0, KC_9, KC_8, KC_7, KC_LSFT,           //
         MO(_LOWER), KC_ENT, KC_ESC, JP_MHEN, KC_NO, KC_NO, //
                                                            // right
         KC_F1, KC_F2, KC_F3, KC_F4, KC_NO, KC_NO,          //
